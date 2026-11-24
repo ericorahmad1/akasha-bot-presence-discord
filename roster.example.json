@@ -1,0 +1,31 @@
+[
+  {
+    "discord_id": "111111111111111111",
+    "name": "Erico",
+    "team": "Tech Team",
+    "kind": "intern",
+    "clocks_in": true,
+    "clockify_user_id": "paste-clockify-user-id",
+    "work_start": "09:00",
+    "work_end": "17:00",
+    "work_days": "1,2,3,4,5"
+  },
+  {
+    "discord_id": "222222222222222222",
+    "name": "Wira",
+    "team": "Marketing",
+    "kind": "core",
+    "clocks_in": true,
+    "clockify_user_id": null,
+    "work_start": "09:00",
+    "work_end": "17:00",
+    "work_days": "1,2,3,4,5"
+  },
+  {
+    "discord_id": "333333333333333333",
+    "name": "Ayu",
+    "team": "Management",
+    "kind": "management",
+    "clocks_in": false
+  }
+]

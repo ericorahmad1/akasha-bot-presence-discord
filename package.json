@@ -1,0 +1,20 @@
+{
+  "name": "presence-bot",
+  "version": "1.0.0",
+  "description": "Akasha team availability bot: clock in/out, status, sick/leave, reminders, recaps (Discord)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node scripts/register-commands.js",
+    "seed": "node scripts/seed-roster.js",
+    "holidays": "node scripts/add-holidays.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  }
+}
